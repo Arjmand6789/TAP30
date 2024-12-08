@@ -6,14 +6,13 @@
   text-decoration: none;
 }
 @font-face {
-    font-family:vazir;
-    src: url(.//vazir-font-v16.1.0/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.woff2);
+  font-family: vazir;
+  src: url(.//vazir-font-v16.1.0/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.woff2);
 }
-body{
-    font-family:vazir;
+body {
+  font-family: vazir;
 }
 nav {
-    
   z-index: 1;
   position: fixed;
   background-color: #fff;
@@ -23,7 +22,7 @@ nav {
 
   .icon {
     display: flex;
-    width: 43%;
+    width: 40%;
     padding: 0 150px;
     a {
       display: flex;
@@ -31,11 +30,12 @@ nav {
     }
   }
   ul {
-    width: 33%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     a {
+      font-size: 18px;
       color: #545454;
     }
   }
@@ -89,25 +89,77 @@ main {
     position: absolute;
     right: 150px;
     display: flex;
-    flex-direction: column;
     background-color: rgba(3, 3, 112, 0.664);
     width: 40%;
     height: 65vh;
     border-radius: 20px;
-    .textbox{
-        width: 100%;
-        height: 100px;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-    h2{
+    .textbox {
+      width: 100%;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      h2 {
         font-size: 50px;
         color: #fff;
-    }
-    p{
+      }
+      p {
         font-size: 30px;
         color: #fff;
+      }
     }
+    .button-box {
+      position: absolute;
+      width: 80%;
+      height: 65%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      .but {
+        height: 22vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        .white-button {
+          background-color: #fff;
+          color: #545454;
+          border: none;
+        }
+        a {
+          width: 200px;
+          height: 50px;
+          border: 2px solid #fff;
+          color: #fff;
+          border-radius: 13px;
+          font-size: 18px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        }
+      }
+    }
+    .end-button {
+      position: absolute;
+      width: 80%;
+      height: 70%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      a {
+        width: 200px;
+        height: 50px;
+        border: 2px solid #fff;
+        color: #fff;
+        border-radius: 13px;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
     }
   }
 }
