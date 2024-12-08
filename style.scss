@@ -110,27 +110,28 @@ main {
     }
     .button-box {
       position: absolute;
-      width: 80%;
-      height: 65%;
+      width:85%;
+      height: 70%;
       display: flex;
       justify-content: center;
       align-items: flex-end;
       flex-wrap: wrap;
       justify-content: space-evenly;
       .but {
-        height: 22vh;
+        height: 25vh;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
         .white-button {
           background-color: #fff;
-          color: #545454;
+          color: black;
           border: none;
         }
         a {
-          width: 200px;
-          height: 50px;
+          width: 220px;
+          height: 60px;
           border: 2px solid #fff;
+          background-color: rgba(30, 30, 116, 0.795);
           color: #fff;
           border-radius: 13px;
           font-size: 18px;
@@ -144,7 +145,7 @@ main {
     .end-button {
       position: absolute;
       width: 80%;
-      height: 70%;
+      height: 75%;
       display: flex;
       justify-content: center;
       align-items: flex-end;
